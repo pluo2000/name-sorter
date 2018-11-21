@@ -1,0 +1,6 @@
+C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\bin\Release\name-sorter.Library.dll
+C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\bin\Release\name-sorter.Library.pdb
+C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Release\name-sorter.Library.csproj.CoreCompileInputs.cache
+C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Release\name-sorter.Library.dll
+C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Release\name-sorter.Library.pdb
+C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Release\name-sorter.Library.csprojAssemblyReference.cache

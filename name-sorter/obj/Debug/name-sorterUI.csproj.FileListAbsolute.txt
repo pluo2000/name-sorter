@@ -1,0 +1,11 @@
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\bin\Debug\unsorted-names-list.txt
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\bin\Debug\name-sorterLibrary.dll
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\bin\Debug\name-sorterLibrary.pdb
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\obj\Debug\name-sorterUI.csprojAssemblyReference.cache
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\obj\Debug\name-sorterUI.csproj.CoreCompileInputs.cache
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\obj\Debug\name-sorterUI.csproj.CopyComplete
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\bin\Debug\name-sorter.exe.config
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\bin\Debug\name-sorter.exe
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\bin\Debug\name-sorter.pdb
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\obj\Debug\name-sorter.exe
+C:\TollMobile\Console Applications\name-sorterSolution\name-sorter\obj\Debug\name-sorter.pdb
