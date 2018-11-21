@@ -4,3 +4,8 @@ C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Rel
 C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Release\name-sorter.Library.dll
 C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Release\name-sorter.Library.pdb
 C:\TollMobile\Console Applications\name-sorterSolution\nme-sorterLibrary\obj\Release\name-sorter.Library.csprojAssemblyReference.cache
+C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\bin\Release\name-sorter.Library.dll
+C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\bin\Release\name-sorter.Library.pdb
+C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Release\name-sorter.Library.csproj.CoreCompileInputs.cache
+C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Release\name-sorter.Library.dll
+C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Release\name-sorter.Library.pdb
