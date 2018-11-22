@@ -9,3 +9,4 @@ C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\bin\Release\nam
 C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Release\name-sorter.Library.csproj.CoreCompileInputs.cache
 C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Release\name-sorter.Library.dll
 C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Release\name-sorter.Library.pdb
+C:\Users\peterluo\Documents\GitHub\name-sorter\nme-sorterLibrary\obj\Release\name-sorter.Library.csprojAssemblyReference.cache
