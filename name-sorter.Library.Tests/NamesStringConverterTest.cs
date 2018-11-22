@@ -32,7 +32,8 @@ namespace name_sorter.Tests
             //
             //expected names in string
             //
-            string expected =   "John Smith\r\n" + "Jake Jackson Lee\r\n"+ "Rob Smyth\r\n"+ "Angela Nash\r\n";
+            string expected = "John Smith\r\n";
+            //string expected =   "John Smith\r\n" + "Jake Jackson Lee\r\n"+ "Rob Smyth\r\n"+ "Angela Nash\r\n";
 
             //
             //actual names in string 
