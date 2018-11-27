@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter.UI.Console", "n
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-sorter.Library", "nme-sorterLibrary\name-sorter.Library.csproj", "{B98D4CCF-CA95-4E42-8448-9ADDF911F52E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ame-sorter.Library.Tests", "ame-sorter.Library.Tests\ame-sorter.Library.Tests.csproj", "{DD27D401-FDD1-4637-B37E-88C6E3AC80DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B98D4CCF-CA95-4E42-8448-9ADDF911F52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B98D4CCF-CA95-4E42-8448-9ADDF911F52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B98D4CCF-CA95-4E42-8448-9ADDF911F52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD27D401-FDD1-4637-B37E-88C6E3AC80DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD27D401-FDD1-4637-B37E-88C6E3AC80DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD27D401-FDD1-4637-B37E-88C6E3AC80DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD27D401-FDD1-4637-B37E-88C6E3AC80DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
