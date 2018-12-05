@@ -7,7 +7,7 @@ using name_sorter.Library.Helpers;
 using name_sorter.Library.Models;
 using Xunit;
 
-namespace name_sorte.Library.Tests
+namespace name_sorte.Tests
 {
     public class NameSorterTest
     {

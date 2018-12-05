@@ -10,8 +10,8 @@
     <ProjectGuid>{DD27D401-FDD1-4637-B37E-88C6E3AC80DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ame_sorter.Library.Tests</RootNamespace>
-    <AssemblyName>ame-sorter.Library.Tests</AssemblyName>
+    <RootNamespace>ame_sorter.Tests</RootNamespace>
+    <AssemblyName>ame-sorter.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -36,8 +36,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=4.10.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.10.0\lib\net45\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileStorageTest.cs" />
     <Compile Include="NameSorterTest.cs" />
     <Compile Include="NamesStringConverterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +83,10 @@
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\name-sorter\name-sorter.UI.Console.csproj">
+      <Project>{ccca79e3-29cb-41ed-87fd-c01d49891065}</Project>
+      <Name>name-sorter.UI.Console</Name>
+    </ProjectReference>
     <ProjectReference Include="..\nme-sorterLibrary\name-sorter.Library.csproj">
       <Project>{b98d4ccf-ca95-4e42-8448-9addf911f52e}</Project>
       <Name>name-sorter.Library</Name>

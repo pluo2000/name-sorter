@@ -17,3 +17,12 @@ C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\obj\Debu
 C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\obj\Debug\ame-sorter.Library.Tests.csproj.CopyComplete
 C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\obj\Debug\ame-sorter.Library.Tests.dll
 C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\obj\Debug\ame-sorter.Library.Tests.pdb
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\Castle.Core.dll
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\Moq.dll
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\Castle.Core.xml
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\Moq.pdb
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\Moq.xml
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\peterluo\Documents\GitHub\name-sorter\ame-sorter.Library.Tests\bin\Debug\System.ValueTuple.xml

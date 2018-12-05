@@ -20,9 +20,11 @@ namespace name_sorter.UI.Console
             string FileNamePathToWrite;
             ILogger logger = LogFactory.CreatLogger();
             IMessage errorMessage = MessageFactory.CreatMessage(Message.MessageType.Error);
+            IMessage promptMessage;
             IDisplay display;
             NamesFile file;
             List<Name> names;
+            IStorage storage;
 
             try
             {
@@ -37,6 +39,11 @@ namespace name_sorter.UI.Console
                 display = DisplayFactory.CreatDisplay();
 
                 //
+                //create message object from the factory
+                //
+                promptMessage = MessageFactory.CreatMessage(Message.MessageType.Prompt);
+
+                //
                 //get file name and path for reading names from command parameter; file name and path for writing names to is set by program
                 //
                 file = FileInfoValidator.GetFile(args, FileNamePathToWrite);
@@ -46,11 +53,21 @@ namespace name_sorter.UI.Console
                 //
                 if (file != null)
                 {
-                    
+
+                    //
+                    //create storage object from the factory
+                    //
+                    storage = StorageFactory.CreatStorage(file);
+
                     //
                     // get list of name object by reading
                     //
-                    names = ReadNamesHelper.ReadNamesFromStorage(file);
+                    names = new ReadNamesHelper(storage).ReadNamesFromStorage();
+
+                    //
+                    //give a reading completion message on screen
+                    //
+                    promptMessage.DisplayMessage("Reading data from " + file.ReadFilePath + " is completed");
 
                     //
                     //do sorting on names

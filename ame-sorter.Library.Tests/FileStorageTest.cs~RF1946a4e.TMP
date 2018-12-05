@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xunit;
+using Moq;
+using name_sorter.Library.Interfaces;
+
+namespace name_sorte.Library.Tests
+{
+    public class FileStorageTest
+    {
+
+        [Fact]
+
+        public void ReadData_ShouldWork()
+        {
+            var dataSource = new Mock<IStorage>();
+            string result = dataSource.Setup(m => m.ReadData()).ToString();
+
+            dataSource.Verify(m => m.ReadData(),Times.Once);
+
+
+
+
+        }
+    }
+}

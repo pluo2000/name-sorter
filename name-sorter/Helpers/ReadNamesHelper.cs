@@ -12,22 +12,22 @@ namespace name_sorter.UI.Console.Helpers
 {
     public class ReadNamesHelper
     {
+        private IStorage storage;
+
+        public ReadNamesHelper(IStorage store)
+        {
+            storage = store;
+        }
+
         /// <summary>
         /// Help read data from a storage; convert data into list of name object
         /// </summary>
         /// <param name="file">storage file</param>
         /// <returns></returns>
-        public static List<Name> ReadNamesFromStorage(NamesFile file)
+        public List<Name> ReadNamesFromStorage()
         {  
             string namesString;
             List<Name> names;
-
-            //
-            //create storage and message object from the respective factories
-            //
-            IStorage storage = StorageFactory.CreatStorage(file);
-            IMessage promptMessage = MessageFactory.CreatMessage(Message.MessageType.Prompt);
-
             //
             //read name list into a string from a storage
             //
@@ -37,12 +37,6 @@ namespace name_sorter.UI.Console.Helpers
             //make a list of name object from the names in string
             //
             names = NamesStringConverter.ConvertStringToNames(namesString);
-
-
-            //
-            //give a reading completion message on screen
-            //
-            promptMessage.DisplayMessage("Reading data from " + file.ReadFilePath + " is completed");
 
             return names;
         }
